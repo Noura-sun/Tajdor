@@ -11,7 +11,8 @@ import SwiftUI
 struct TajdorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomTabBar()
+                .environment(\.layoutDirection, .rightToLeft)
         }
     }
 }
