@@ -30,7 +30,7 @@ struct CustomTabBar: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
 
-            // ✅ التاب بار نفسه
+            //التاب بار نفسه
             HStack {
                 Spacer()
                 tabItem(icon: "house.fill", label: "الرئيسية")

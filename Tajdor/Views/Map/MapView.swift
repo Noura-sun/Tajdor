@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import MapKit
+import MapKit//for map sim
 
 struct MapView: View {
     @State private var selectedTank: Tank? = nil
